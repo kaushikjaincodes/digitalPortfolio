@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
-import { Boxes } from "../components/ui/background-boxes";
 
 export default function Home() {
   return (
@@ -23,7 +22,7 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          Hey, I'm Kaushik Jain
+          Hey, I&apos;m Kaushik Jain
         </motion.h1>
         <p className="mt-4 text-base sm:text-lg md:text-xl text-white mb-6 relative z-10">
           Full Stack Web Developer
@@ -50,7 +49,7 @@ export default function Home() {
             About Me
           </motion.h2>
           <p className="mt-4 text-sm sm:text-base text-gray-400 text-justify">
-            I am a passionate web developer specializing in building modern, interactive applications that deliver seamless user experiences. With a strong foundation in frontend technologies like React, Next.js, and Tailwind CSS, I focus on creating visually appealing and highly functional interfaces. My expertise extends to backend development, ensuring efficient data management and secure authentication using tools like Node.js, MongoDB, and Supabase. I enjoy exploring new technologies, continuously refining my skills, and pushing the boundaries of web development to craft innovative digital experiences. Whether it's optimizing performance, implementing smooth animations, or enhancing user engagement, I am committed to building applications that stand out.
+            I am a passionate web developer specializing in building modern, interactive applications that deliver seamless user experiences. With a strong foundation in frontend technologies like React, Next.js, and Tailwind CSS, I focus on creating visually appealing and highly functional interfaces. My expertise extends to backend development, ensuring efficient data management and secure authentication using tools like Node.js, MongoDB, and Supabase. I enjoy exploring new technologies, continuously refining my skills, and pushing the boundaries of web development to craft innovative digital experiences. Whether it&apos;s optimizing performance, implementing smooth animations, or enhancing user engagement, I am committed to building applications that stand out.
           </p>
         </div>
         <motion.div
@@ -77,7 +76,7 @@ export default function Home() {
             My Projects
           </motion.h2>
           <p className="mt-4 text-sm sm:text-base text-gray-400 text-justify">
-            I have worked on various projects, including web applications, portfolio sites, and AI-powered platforms. Some of my notable projects include EventEase, a TypeScript-based event management web application, Inscribe, a full-stack blog platform with Google authentication, and MiniMinter, a web-based NFT minting platform integrated with blockchain technology. Additionally, I developed an AI-powered Nutrition and Diet Planner, which was a finalist in the IEEE DAIICT “Tich Tech Toe” Hackathon. These projects have strengthened my expertise in web development while also allowing me to explore AI applications in real-world scenarios.
+            I have worked on various projects, including web applications, portfolio sites, and AI-powered platforms. Some of my notable projects include EventEase, a TypeScript-based event management web application, Inscribe, a full-stack blog platform with Google authentication, and MiniMinter, a web-based NFT minting platform integrated with blockchain technology. Additionally, I developed an AI-powered Nutrition and Diet Planner, which was a finalist in the IEEE DAIICT &quot;Tich Tech Toe&quot; Hackathon. These projects have strengthened my expertise in web development while also allowing me to explore AI applications in real-world scenarios.
           </p>
         </div>
         <motion.div
@@ -104,7 +103,7 @@ export default function Home() {
             Contact Me
           </motion.h2>
           <p className="mt-4 text-sm sm:text-base text-gray-400 mb-7">
-            Let's connect! You can reach out to me via email:
+            Let&apos;s connect! You can reach out to me via email:
             <a href="mailto:your@email.com" className="text-blue-400 hover:underline"> kaushikjain2626@gmail.com</a>
           </p>
           <div className="flex space-x-4">

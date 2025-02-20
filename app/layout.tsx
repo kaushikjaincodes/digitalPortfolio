@@ -21,6 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               href="/Kaushik_Jain_Resume.pdf" 
               download="Kaushik_Jain_Resume.pdf"
               target="_blank"
+              rel="noopener noreferrer" 
               className="text-gray-400 hover:text-white transition duration-300" >
               Resume
             </a>
