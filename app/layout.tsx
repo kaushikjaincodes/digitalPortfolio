@@ -17,7 +17,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <a href="#about" className="text-gray-400 hover:text-white transition duration-300">About</a>
             <a href="#projects" className="text-gray-400 hover:text-white transition duration-300">Projects</a>
             <a href="#contact" className="text-gray-400 hover:text-white transition duration-300">Contact</a>
+             <a 
+              href="/Kaushik_Jain_Resume.pdf" 
+              download="Kaushik_Jain_Resume.pdf"
+              target="_blank"
+              className="text-gray-400 hover:text-white transition duration-300" >
+              Resume
+            </a>
           </div>
+
         </nav>
         {children}
       </body>
